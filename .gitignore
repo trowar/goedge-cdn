@@ -1,0 +1,30 @@
+# 编译产物
+bin/
+*.exe
+*.so
+*.dylib
+
+# 运行时数据
+logs/
+*.log
+data/
+*.store
+*.sst
+*.ldb
+
+# 本地配置与密钥（不要提交）
+configs/db.yaml
+configs/api.yaml
+configs/api_node.yaml
+api_admin.yaml
+*.pem
+*.key
+
+# 前端依赖
+node_modules/
+dist/
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/
